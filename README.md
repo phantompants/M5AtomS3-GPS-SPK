@@ -27,6 +27,5 @@ Enable the following functions:
 - Allow a Bluetooth connection for iOS Bluetooth Terminal functions
 - Pick Nearest Australian city by size of city as at least 5% of State/Territories population (generate this list (for all Australian and New Zealand States/Territories) in the code with latitude and longitude sorted by State then City)
 
-Put wifi credentials in a file called secrets.py and include:
 - Use Wi-Fi SSID "Mumbo-Jumbo"
 - Use Wi-Fi Password "BPJY3Z5RF8@23"
