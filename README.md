@@ -20,12 +20,10 @@ Write the code for upload in Arduino IDE 2.3.2
 
 Enable the following functions:
 - Enable logging with power on
-- Enable toggle on/off with main button click
-- Enable G27 LED to turn Red when Power On
-- Enable G27 LED to Blue program started but Satellite fix not yet enabled
-- Enable G27 LED to Flash Green when logging data to SD Card
-- Enable G27 LED to Flash Red when in error
-- Allow a Wi-Fi connection to get NTP data (when Wi-Fi available) and read the SD remotely via a we browser
+- Enable toggle on/off with screen click
+- Enable message on screen when logging data showing Lat, Long, Elevation, Speed, battery %, and number of GPX files recorded this week, with a green border around the screen
+- When it has no satellite fix enable red border around the screen and a number depicting number of satellites connected, if none display an X
+- Allow a Wi-Fi connection to get NTP data (when Wi-Fi available) and read the SD remotely via a web browser
 - Allow a Bluetooth connection for iOS Bluetooth Terminal functions
 - Pick Nearest Australian city by size of city as at least 5% of State/Territories population (generate this list (for all Australian and New Zealand States/Territories) in the code with latitude and longitude sorted by State then City)
 
